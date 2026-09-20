@@ -6,8 +6,8 @@ Institut Teknologi Del, S1 Sistem Informasi
 ## Tentang Proyek Ini
 Halaman ini adalah portofolio pribadi saya, dibangun dari nol pakai HTML5 dan CSS3
 tanpa framework tambahan. Isinya ada profil singkat, daftar keahlian, riwayat proyek
-yang pernah saya kerjakan, sertifikat dan pencapaian, sampai formulir kontak buat
-yang mau konsultasi.
+yang pernah saya kerjakan, sertifikat dan pencapaian, hingga formulir kontak untuk
+yang ingin berkonsultasi.
 
 ## Live Demo
 https://mutiarasianturi.github.io/ppw-2026-week2-12S24045/
