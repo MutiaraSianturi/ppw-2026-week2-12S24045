@@ -18,7 +18,7 @@ filterButtons.forEach(btn => {
   });
 });
 
-// Animasi muncul saat discroll (slide effect)
+// Animasi muncul saat di scroll (slide effect)
 const revealElements = document.querySelectorAll('.reveal, .slide-left, .slide-right');
 
 const observer = new IntersectionObserver((entries) => {
