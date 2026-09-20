@@ -1,5 +1,4 @@
-# Portofolio Web 
-# Mutiara Y.H. Sianturi - 12S24045
+# Portofolio Web - Mutiara Y.H. Sianturi
 
 Tugas Mandiri Minggu 2 - Mata Kuliah Pemrograman dan Pengujian Aplikasi Web (12S3101)
 Institut Teknologi Del, S1 Sistem Informasi
@@ -7,8 +6,8 @@ Institut Teknologi Del, S1 Sistem Informasi
 ## Tentang Proyek Ini
 Halaman ini adalah portofolio pribadi saya, dibangun dari nol pakai HTML5 dan CSS3
 tanpa framework tambahan. Isinya ada profil singkat, daftar keahlian, riwayat proyek
-yang pernah saya kerjakan, sertifikat dan pencapaian, hingga formulir kontak untuk
-yang ingin berkonsultasi.
+yang pernah saya kerjakan, sertifikat dan pencapaian, sampai formulir kontak buat
+yang mau konsultasi.
 
 ## Live Demo
 https://mutiarasianturi.github.io/ppw-2026-week2-12S24045/
@@ -28,4 +27,4 @@ https://mutiarasianturi.github.io/ppw-2026-week2-12S24045/
 HTML5, CSS3
 
 ## Menjalankan di Lokal
-Clone repo ini, lalu buka index.html langsung di browser atau lewat Live Server di VS Code.
+Clone repo ini, lalu buka index.html langsung di browser atau lewat Live Server di VS Code.S
