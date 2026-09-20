@@ -1,30 +1,56 @@
-# Portofolio Web - Mutiara Y.H. Sianturi
+# Portofolio Web — Mutiara Y.H. Sianturi - 12S24045
 
-Tugas Mandiri Minggu 2 - Mata Kuliah Pemrograman dan Pengujian Aplikasi Web (12S3101)
-Institut Teknologi Del, S1 Sistem Informasi
+Tugas Mandiri Minggu 2 — Mata Kuliah Pemrograman dan Pengujian Aplikasi Web (12S3101)
+Institut Teknologi Del, Program Studi S1 Sistem Informasi
 
-## Tentang Proyek Ini
-Halaman ini adalah portofolio pribadi saya, dibangun dari nol pakai HTML5 dan CSS3
-tanpa framework tambahan. Isinya ada profil singkat, daftar keahlian, riwayat proyek
-yang pernah saya kerjakan, sertifikat dan pencapaian, sampai formulir kontak buat
-yang mau konsultasi.
+## Tentang Proyek
+
+Halaman ini adalah portofolio pribadi saya, dibangun dari nol menggunakan HTML5 dan CSS3 murni tanpa framework tambahan. Portofolio ini menampilkan identitas akademik, riwayat pendidikan, pengalaman organisasi, kegiatan sukarela, keahlian, rekap proyek yang pernah dikerjakan, sertifikat dan penghargaan, serta formulir kontak untuk keperluan konsultasi.
 
 ## Live Demo
+
 https://mutiarasianturi.github.io/ppw-2026-week2-12S24045/
 
-## Yang Sudah Diterapkan
-- Struktur HTML5 semantik (header, nav, main, 5 section, aside, footer), tanpa div yang nggak perlu
-- Tabel data pakai caption, thead, tbody, dan atribut scope
-- Dua jenis list: ul (skill, sertifikat) dan ol (tahapan kerja)
-- Form dengan fieldset, legend, label yang terhubung ke input, dan validasi required
-- CSS eksternal dengan universal box-sizing reset di awal
-- Tema warna hijau army mengikuti konsep 60-30-10
-- Border-radius, box-shadow, transisi hover, dan animasi fade-in
-- Layout pakai Flexbox
-- Responsif lewat media query untuk layar di bawah 768px
+## Fitur yang Diterapkan
 
-## Teknologi
-HTML5, CSS3
+**Struktur HTML5 Semantik**
+Halaman disusun menggunakan header, nav, main, beberapa section (Tentang, Pendidikan, Organisasi, Sukarela, Keahlian, Portofolio, Sertifikat, Kontak), aside, dan footer, tanpa pembungkus div yang tidak perlu.
 
-## Menjalankan di Lokal
-Clone repo ini, lalu buka index.html langsung di browser atau lewat Live Server di VS Code.S
+**Data Tabular & List**
+Satu tabel data semantik lengkap dengan caption, thead, tbody, tfoot, dan atribut scope untuk menampilkan riwayat proyek. Terdapat juga penggunaan unordered list dan ordered list untuk menampilkan keahlian dan tahapan kerja.
+
+**Formulir Interaktif & Aksesibel**
+Formulir dikelompokkan dengan dua fieldset dan legend (Data Identitas dan Detail Permintaan), memuat lebih dari enam jenis kontrol input (text, email, tel, number, select, textarea, checkbox), seluruhnya dengan label yang terhubung secara eksplisit dan validasi native HTML5.
+
+**Estetika & Tata Letak Modern**
+CSS eksternal dengan universal box-sizing reset, tema warna hijau army dipadukan hitam dan putih mengikuti konsep 60-30-10, border-radius dan box-shadow pada elemen kartu, transisi hover, animasi scroll reveal, layout berbasis Flexbox dan Grid, serta responsif melalui media query untuk tampilan mobile.
+
+**Fitur Tambahan**
+Filter kategori interaktif pada bagian Sertifikat & Penghargaan menggunakan JavaScript, memungkinkan pengunjung menyaring tampilan berdasarkan kategori Sertifikat, Penghargaan, atau Publikasi.
+
+## Teknologi yang Digunakan
+
+- HTML5
+- CSS3 (Flexbox, Grid, Media Query, CSS Variables)
+- JavaScript (vanilla, untuk fitur filter dan animasi scroll)
+
+## Struktur File
+ppw-2026-week2-12S24045
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│ └── (berisi foto profil, sertifikat, dan dokumentasi kegiatan)
+└── README.md
+
+
+## Cara Menjalankan Secara Lokal
+
+1. Clone repository ini
+2. Buka file `index.html` langsung di browser, atau gunakan ekstensi Live Server di VS Code untuk pengalaman auto-refresh
+
+## Kontak
+
+- Email: mutiarasianturi006@gmail.com
+- LinkedIn: linkedin.com/in/mutiara-sianturi-4a8328320
+- Instagram: @mutiara.sianturii
