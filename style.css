@@ -11,6 +11,8 @@
   --accent-light: #9bc357;
   --white: #ffffff;
   --text-muted: #c7cdb9;
+  --radius-card: 14px;
+  --shadow-hover: 0 12px 24px rgba(0,0,0,0.5);
 }
 
 html {
@@ -456,4 +458,76 @@ footer {
 
 .terms-box li {
   margin-bottom: 6px;
+}
+
+.custom-navbar {
+  background-color: var(--bg-dark) !important;
+  border-bottom: 1px solid var(--accent);
+}
+
+.custom-navbar .nav-link {
+  color: var(--text-muted) !important;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: var(--accent-light) !important;
+}
+
+:root {
+  --radius-card: 14px;
+  --shadow-hover: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.custom-navbar {
+  background-color: var(--bg-dark) !important;
+  border-bottom: 1px solid var(--accent);
+}
+
+.custom-navbar .nav-link {
+  color: var(--text-muted) !important;
+  font-weight: 600;
+}
+
+.custom-navbar .nav-link:hover {
+  color: var(--accent-light) !important;
+}
+
+.project-card {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(92, 122, 41, 0.4);
+  border-radius: var(--radius-card);
+  color: var(--white);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+}
+
+.form-control, .form-select {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(92, 122, 41, 0.4);
+  color: var(--white);
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: var(--bg-card);
+  color: var(--white);
+  border-color: var(--accent-light);
+  box-shadow: 0 0 0 0.25rem rgba(155, 195, 87, 0.25);
+}
+
+.custom-btn {
+  background-color: var(--accent-light);
+  color: var(--bg-dark);
+  border: none;
+  font-weight: 700;
+}
+
+.custom-btn:hover {
+  background-color: var(--accent);
+  color: var(--white);
 }
