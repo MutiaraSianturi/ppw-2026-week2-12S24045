@@ -49,3 +49,38 @@ window.addEventListener('scroll', () => {
 scrollTopBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+// Lightbox untuk foto sertifikat & kegiatan sukarela
+const lightboxOverlay = document.getElementById('lightboxOverlay');
+const lightboxImg = document.getElementById('lightboxImg');
+const lightboxClose = document.getElementById('lightboxClose');
+const clickableImages = document.querySelectorAll('.volunteer-card img, .cert-card img');
+
+clickableImages.forEach(img => {
+  img.addEventListener('click', () => {
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightboxOverlay.classList.add('active');
+  });
+});
+
+function closeLightbox() {
+  lightboxOverlay.classList.remove('active');
+  lightboxImg.src = '';
+}
+
+lightboxClose.addEventListener('click', closeLightbox);
+
+// klik di area gelap (bukan di gambarnya) juga menutup lightbox
+lightboxOverlay.addEventListener('click', (e) => {
+  if (e.target === lightboxOverlay) {
+    closeLightbox();
+  }
+});
+
+// tekan tombol Escape di keyboard juga menutup lightbox
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeLightbox();
+  }
+});
