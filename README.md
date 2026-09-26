@@ -1,4 +1,4 @@
-# Portofolio Web — Mutiara Y.H. Sianturi - 12S24045
+# Portofolio Web — Mutiara Y.H. Sianturi - 12S24045 - 13 SI 2
 
 Tugas Mandiri Minggu 2 — Mata Kuliah Pemrograman dan Pengujian Aplikasi Web (12S3101)
 Institut Teknologi Del, Program Studi S1 Sistem Informasi
