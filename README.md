@@ -53,4 +53,6 @@ ppw-2026-week2-12S24045
 
 - Email: mutiarasianturi006@gmail.com
 - LinkedIn: linkedin.com/in/mutiara-sianturi-4a8328320
+<<<<<<< HEAD
 - Instagram: @mutiara.sianturii
+=======
