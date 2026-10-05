@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Konsultasi Frontend & UI/UX", "description": "Diskusi seputar perancangan antarmuka web yang responsif dan mudah digunakan.", "price": "Gratis untuk sesi awal" },
+  { "id": 2, "name": "Analisis & Visualisasi Data", "description": "Bantuan pengolahan data mentah menjadi visualisasi yang informatif untuk mendukung keputusan.", "price": "Sesuai kesepakatan" },
+  { "id": 3, "name": "Analisis Proses Bisnis", "description": "Pemetaan dan analisis alur proses bisnis untuk menemukan peluang perbaikan.", "price": "Sesuai kesepakatan" }
+]

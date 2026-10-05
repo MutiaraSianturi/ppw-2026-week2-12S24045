@@ -1,0 +1,25 @@
+{
+  "name": "Mutiara Y.H. Sianturi",
+  "role": "Mahasiswa Sistem Informasi",
+  "university": "Institut Teknologi Del",
+  "bio": [
+    "Halo! Saya Mutiara Y.H. Sianturi atau akrab disapa Mutiara, seorang mahasiswa yang antusias dan memiliki motivasi tinggi dari Program Studi Sistem Informasi di Institut Teknologi Del.",
+    "Saya percaya bahwa pembelajaran yang bermakna melampaui batas ruang kelas dan terbentuk melalui pengalaman, rasa ingin tahu, serta pengembangan diri yang konsisten.",
+    "Saat ini, saya menjadi anggota Unit Kegiatan Mahasiswa (UKM) Del Data Science, mempelajari dasar-dasar pengolahan, analisis, dan visualisasi data."
+  ],
+  "email": "mutiarasianturi006@gmail.com",
+  "instagram": "@mutiara.sianturii",
+  "tiktok": "@myhsze",
+  "linkedin": "https://www.linkedin.com/in/mutiara-sianturi-4a8328320",
+  "photo": "assets/foto-mutiara.jpeg",
+  "skills": [
+    { "name": "Public Speaking", "desc": "Kemampuan menyampaikan ide secara jelas dan percaya diri di depan audiens." },
+    { "name": "Data Science", "desc": "Kemampuan mengolah, menganalisis, dan memvisualisasikan data untuk mendukung pengambilan keputusan." },
+    { "name": "Note-Taking & Organizing", "desc": "Kebiasaan mencatat informasi secara rapi dan terstruktur." },
+    { "name": "Collaboration Solutions", "desc": "Kemampuan bekerja sama dalam tim lintas divisi." },
+    { "name": "Business Process Analysis", "desc": "Kemampuan menganalisis alur proses bisnis untuk menemukan peluang perbaikan." },
+    { "name": "Event Planning", "desc": "Kemampuan merencanakan dan mengeksekusi sebuah acara." },
+    { "name": "Creative Problem Solving", "desc": "Kemampuan mencari solusi baru untuk menyelesaikan masalah." },
+    { "name": "Human Computer Interaction", "desc": "Pemahaman tentang interaksi manusia dengan teknologi." }
+  ]
+}

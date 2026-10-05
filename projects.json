@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Sistem Rekomendasi Film", "category": "Python", "description": "Sistem rekomendasi film menggunakan metode Collaborative Filtering dan Aljabar Linear untuk menghitung kemiripan antar pengguna dan film.", "tech": "Python, Linear Algebra", "thumbnail": "assets/sertif-hackathon.jpg" },
+  { "id": 2, "title": "Classroom Scheduling System", "category": "Java OOP", "description": "Aplikasi manajemen penjadwalan kelas dan booking ruangan berbasis Object-Oriented Programming, terhubung ke database melalui JDBC.", "tech": "Java OOP, JDBC", "thumbnail": "assets/sertif-delolympiad.jpg" },
+  { "id": 3, "title": "Business Process Analysis", "category": "BPM", "description": "Analisis end-to-end proses bisnis pembelajaran di dalam kelas, mengidentifikasi bottleneck dan peluang perbaikan proses.", "tech": "Business Process Analysis", "thumbnail": "assets/sertif-ai-bootcamp.jpg" },
+  { "id": 4, "title": "Portofolio Web Pribadi", "category": "Web Design", "description": "Website portofolio pribadi dibangun dengan HTML5 semantik dan Bootstrap 5 untuk tampilan responsif dan modern.", "tech": "HTML5, CSS3, Bootstrap 5", "thumbnail": "assets/sertif-ai-training.jpg" }
+]
